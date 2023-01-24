@@ -1,0 +1,314 @@
+/* Event form */
+#event-subscription {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hrz-5.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+#disclaimer {
+  /* Benefits section */
+  /* Event location */
+  /* Event details container */
+  /* Call to Action Section */
+  /* Footer */
+  /* Mobile */
+  /* Event details container */
+  /* Call to Action Section */
+}
+#disclaimer h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+#disclaimer h2 .event-date {
+  font-weight: bold;
+  color: #00baf2;
+}
+#disclaimer h2 .about-event {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+#disclaimer h2 p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+#disclaimer #subscription-form {
+  color: #95989a;
+  padding: 2em;
+  max-width: 22%;
+}
+#disclaimer #subscription-form p {
+  font-size: 1.5em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
+}
+#disclaimer .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+#disclaimer .form-group label {
+  color: var(#5d5d5d);
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+#disclaimer .form-group input select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#disclaimer .btn {
+  color: #00baf2;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+#disclaimer .btn:hover {
+  opacity: 1;
+}
+#disclaimer #key-benefits h2 {
+  color: #95989a;
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+#disclaimer .benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+#disclaimer .benefits .benefit {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: #5d5d5d;
+}
+#disclaimer .benefits .benefit-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+#disclaimer .benefits .benefit-img #benefit-1 {
+  background-image: url("../img/sqr-1.jpg");
+}
+#disclaimer .benefits .benefit-img #benefit-2 {
+  background-image: url("../img/sqr-2.jpg");
+}
+#disclaimer .benefits .benefit-img #benefit-3 {
+  background-image: url("../img/sqr-3.jpg");
+}
+#disclaimer #location {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hrz-1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  margin-bottom: 3em;
+}
+#disclaimer #location #address {
+  display: flex;
+}
+#disclaimer #location #address #about-location {
+  max-width: 30%;
+}
+#disclaimer #location #address i {
+  color: #00baf2;
+  font-size: 4em;
+  margin-right: 0.5em;
+}
+#disclaimer #location #address #address-details {
+  text-align: center;
+  font-size: 1.3em;
+}
+#disclaimer #location #about-location h3 {
+  color: #00baf2;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+#disclaimer #location #about-location p {
+  line-height: 1.5em;
+}
+#disclaimer #details {
+  width: 80%;
+  margin: 0 auto;
+}
+#disclaimer #details .detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+#disclaimer #details .detail img {
+  width: 50%;
+}
+#disclaimer #details .detail h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+#disclaimer #details #detail-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+#disclaimer #details #detail-1 .detail-description {
+  width: 100%;
+  padding-left: 2em;
+}
+#disclaimer #details #detail-3 .detail-description {
+  justify-self: flex-start;
+}
+#disclaimer #details #detail-3 .detail-description ul {
+  list-style-position: inside;
+}
+#disclaimer #details #detail-3 .detail-description ul li:last-child {
+  font-weight: bold;
+}
+#disclaimer #details #detail-3 .detail-description ul li {
+  margin-bottom: 0.4em;
+}
+#disclaimer #cta {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/hrz-6.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+#disclaimer #cta h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+#disclaimer #cta .btn {
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+#disclaimer #footer {
+  text-align: center;
+  color: #95989a;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#disclaimer #footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+#disclaimer #footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+#disclaimer #footer span {
+  font-weight: bold;
+}
+@media (max-width: 450px) {
+  #disclaimer {
+    /* Event form */
+    /* Benefits section */
+    /* Event location */
+  }
+  #disclaimer #event-subscription {
+    flex-direction: column;
+    height: auto;
+  }
+  #disclaimer #disclaimer {
+    padding: 2em;
+  }
+  #disclaimer #disclaimer h2 {
+    margin-bottom: 0.5em;
+  }
+  #disclaimer #subscription-form {
+    max-width: 70%;
+    margin-bottom: 2em;
+  }
+  #disclaimer .benefits {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+  }
+  #disclaimer .benefit {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+  #disclaimer #location {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 2em 0;
+  }
+  #disclaimer #address {
+    order: 2;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  #disclaimer #address i {
+    margin: 0.3em 0;
+  }
+  #disclaimer #about-location {
+    order: 1;
+    max-width: 100%;
+  }
+  #disclaimer h3 {
+    margin-bottom: 0;
+  }
+  #disclaimer p {
+    display: none;
+  }
+}
+#disclaimer .detail {
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  gap: 0;
+}
+#disclaimer .detail img {
+  width: 100%;
+  margin: 2em 0;
+}
+#disclaimer #detail-1 img {
+  display: none;
+}
+#disclaimer .detail-description {
+  padding: 0;
+}
+#disclaimer #detail-3 img {
+  order: 2;
+}
+#disclaimer #detail-3 img .detail-description {
+  order: 1;
+}
+#disclaimer #cta .btn {
+  width: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */

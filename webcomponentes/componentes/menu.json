@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Menu 1",
+        "link": "#",
+        "submenu": [
+            {
+                "submenu": "sub menu 1",
+                "sublink": "#"
+            },
+            {
+                "submenu": "sub menu 2",
+                "sublink": "#"
+            }
+        ]
+    },
+    {
+        "name": "Menu 2",
+        "link": "#",
+        "submenu": [
+            {
+                "submenu": "sub menu 1",
+                "sublink": "#"
+            },
+            {
+                "submenu": "sub menu 2",
+                "sublink": "#"
+            }
+        ]
+    }
+]

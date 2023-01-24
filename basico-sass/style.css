@@ -1,0 +1,37 @@
+.btn, .btn-yellow, .btn-red, .btn-orange {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+}
+
+.btn-orange {
+  background: orange;
+  color: blue;
+}
+
+.btn-red {
+  background: red;
+  color: white;
+}
+
+.btn-yellow {
+  background: yellow;
+  color: white;
+}
+
+p {
+  background: black;
+}
+p span {
+  background: red;
+}
+p span a {
+  color: yellow;
+}
+p:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

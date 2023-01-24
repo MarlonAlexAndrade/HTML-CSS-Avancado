@@ -1,0 +1,18 @@
+@import "./variaveis.scss";
+@import "./botao.scss";
+
+p {
+    background: black;
+
+    span {
+        background: red;
+
+        a {
+            color: yellow;
+        }
+    }
+
+    &:hover {
+        color: blue
+    }
+}
